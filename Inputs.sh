@@ -1,3 +1,4 @@
+# Inputs and Output
 #!/bin/bash
 
 #? Taking Inputs as name

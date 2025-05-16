@@ -1,3 +1,6 @@
+# Contiditional Statements
+#!/bin/bash
+
 #! Condition - 1
 
 read a

@@ -1,6 +1,6 @@
+# Variables
 #!/bin/bash
 
-#? Variable
 name="John"
 
 echo "Hello my name is $name"

@@ -1,3 +1,4 @@
+# Functions
 #!/bin/bash
 
 #? Function - 1 (Without argument)

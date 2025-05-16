@@ -1,3 +1,5 @@
+# Arrays
+
 #!/bin/bash
 
 arr=(Apple Banana Cherry Date) #* There should not be an comma(,) as separator
