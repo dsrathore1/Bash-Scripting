@@ -15,4 +15,4 @@ jobs:
           echo "🚫 Stopping state..."
       - name: 🥗 Run Bash file
         run: |
-          Arrays.sh
+          ./Arrays.sh
