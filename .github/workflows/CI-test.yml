@@ -1,0 +1,18 @@
+name: CI Workflow for Bash scripting
+on:
+  push:
+    branches: [Basics]
+
+jobs:
+  test:
+    runs-on: ubuntu-test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run test
+        run: |
+          echo "🟢 Running state"
+          # Stopping state
+          echo "🚫 Stopping state..."
+      - name: 🥗 Run Bash file
+        run: |
+          Arrays.sh
