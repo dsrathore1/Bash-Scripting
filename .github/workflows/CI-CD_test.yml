@@ -1,6 +1,6 @@
 name: CI/CD Pipeline for Intermediate branch
 
-run-name: Trigger by ${{github.actor_id}}
+run-name: Trigger by ${{github.actor}} on branch ${{github.ref_name}} number ${{github.run_number}}
 
 on:
   push:
