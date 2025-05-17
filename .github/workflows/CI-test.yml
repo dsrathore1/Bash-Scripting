@@ -1,4 +1,7 @@
-name: CI Workflow for Bash scripting
+name: CI/CD Workflow for Bash scripting
+
+run-name: 🚀 Test triggered by ${{ github.actor }} on branch ${{ github.ref_name }} # Context variables
+
 on:
   push:
     branches: [Basics]
