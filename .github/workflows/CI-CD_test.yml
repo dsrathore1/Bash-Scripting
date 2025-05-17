@@ -1,0 +1,17 @@
+name: CI/CD Pipeline for Intermediate branch
+
+run-name: Trigger by ${{github.actor_id}}
+
+on:
+  push:
+    branches: [Intermediate]
+
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check the Pipeline
+        run: ./Advance-Array.sh
